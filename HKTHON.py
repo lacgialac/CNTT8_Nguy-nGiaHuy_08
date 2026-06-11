@@ -41,7 +41,7 @@ def  add_new_car(list_xe):
     total_fuel = input("nhập vào tổng số nhiên liệu tiêu thụ thực tế: ")
 
 
-    consumption_dif_index= input("nhập vào chỉ số chênh lệch tiêu hao; ")
+    consumption_dif_index= int(input("nhập vào chỉ số chênh lệch tiêu hao; "))
 
     if consumption_dif_index <0 :
         status= "tiết kiệm"
